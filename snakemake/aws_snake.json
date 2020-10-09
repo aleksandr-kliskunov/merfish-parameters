@@ -1,0 +1,7 @@
+{
+    "cluster": "sbatch -n {cluster.n}  -t {cluster.time} -o {cluster.out} -e {cluster.err} ",
+    "cluster_config": "/shared/merlin_parameters/snakemake/small_cluster.json",
+    "nodes": 5000,
+    "restart_times": 3,
+    "latency_wait": 60 
+}
