@@ -170,7 +170,8 @@
                 "global_align_task": "SimpleGlobalAlignment",
                 "warp_task": "FiducialCorrelationWarp",
 		"microns_per_pixel": 0.106,
-                "data_channels": ["DAPI"]
+                "data_channels": ["DAPI"],
+          "separate_files": true
             }
         },
         {
